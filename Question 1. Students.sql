@@ -8,5 +8,6 @@
 		firstName VARCHAR(30) NOT NULL,
 		lastName VARCHAR(30) NOT NULL
 */
+----/* This won't be sufficient as it is mentioned in the question that "String comparisions should be case sensitive ",so try using COLLATE */
 
 SELECT COUNT(*) FROM students WHERE firstname = 'John'
